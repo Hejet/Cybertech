@@ -310,7 +310,7 @@ img:hover {
 }
 .post_nav li {
   border-bottom: 1px dashed #ddd;
-  float: left;
+  /*  float: left; */
   width: 100%;
   margin-bottom: 30px;
   padding-bottom: 10px;
@@ -353,14 +353,12 @@ figure.effect-lily a:hover img {
   font-size: 16px;
 }
 .ppost_nav {
-  /*   float: left; */
+  float: left;
   display: flex;
   flex-direction: column;
 }
 .ppost_nav li {
-  /*   float: left; */
-  /*  display: flex;
-  flex-direction: column; */
+  float: left;
   width: 90%;
   margin-bottom: 10px;
 }
@@ -373,12 +371,12 @@ figure.effect-lily a:hover img {
   margin-right: 5px;
   float: left;
 }
-/* .ppost_nav li .media-centr {
+.ppost_nav li .media-centr {
   border: 1px solid #ddd;
   padding: 4px;
   margin-right: 5px;
   float: left;
-} */
+}
 .middle_content {
   border-bottom: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
@@ -586,17 +584,13 @@ figure.effect-lily a:hover img {
   flex-wrap: wrap;
   width: 100%;
 }
- {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+/* 
 .centr_item a {
   border: 1px solid #ddd;
   padding: 4px;
   margin-right: 5px;
   float: left;
-}
+} */
 
 .footer_widget > h2 {
   color: #ddd;
@@ -937,10 +931,14 @@ figure.effect-lily a:hover img {
   background: none repeat scroll 0 0 #c92228;
 }
 .related_post {
-  display: inline;
-  float: left;
+  /*   display: inline;
+  float: left; */
   margin-top: 16px;
   width: 100%;
+}
+.related_post ul {
+  display: flex;
+  flex-direction: row;
 }
 .related_post > h2 {
   border-bottom: 1px solid #e3e3e3;
