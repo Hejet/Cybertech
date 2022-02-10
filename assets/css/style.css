@@ -352,10 +352,16 @@ figure.effect-lily a:hover img {
   padding: 15px 15px 10px;
   font-size: 16px;
 }
+.ppost_nav {
+  /*   float: left; */
+  display: flex;
+  flex-direction: column;
+}
 .ppost_nav li {
-  float: left;
-  display: block;
-  width: 100%;
+  /*   float: left; */
+  /*  display: flex;
+  flex-direction: column; */
+  width: 90%;
   margin-bottom: 10px;
 }
 .catg_title {
@@ -367,6 +373,12 @@ figure.effect-lily a:hover img {
   margin-right: 5px;
   float: left;
 }
+/* .ppost_nav li .media-centr {
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin-right: 5px;
+  float: left;
+} */
 .middle_content {
   border-bottom: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
@@ -569,10 +581,23 @@ figure.effect-lily a:hover img {
   padding-bottom: 15px;
 }
 .footer_widget {
-  float: left;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
 }
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.centr_item a {
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin-right: 5px;
+  float: left;
+}
+
 .footer_widget > h2 {
   color: #ddd;
   font-size: 19px;
